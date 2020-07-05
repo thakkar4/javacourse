@@ -7,12 +7,19 @@ public class ForSumOfNaturalNumbers {
         }
         System.out.println("sum is: "+total); */
 
-        for(int i=100; i>=2; i-=4) {
+       /* for(int i=100; i>=2; i-=4) {
             System.out.println(i);
-        }
+        } */
        /* for(int i=2; i<=100; i+=4){
             System.out.println(i);
         }*/
+       /* for(int i=100; i>=2; i=i-4) {
+            System.out.println(i);
+        } */
+        for(int i=100; i<=2000; i=i+100) {
+            System.out.println(i);
+        }
+
     }
 
     }
